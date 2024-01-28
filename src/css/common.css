@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+[data-start] {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+[data-stop] {
+  background-color: white; 
+  color: black;
+  border: 1px solid black;
+}
